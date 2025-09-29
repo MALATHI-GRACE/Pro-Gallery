@@ -1,0 +1,100 @@
+  body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding-top: 70px; 
+    }
+
+    /* Navbar */
+    nav {
+      background: #222;
+      color: #fff;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;  
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000; 
+    }
+
+    nav h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .dropbtn {
+      background: #444;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background: #fff;
+      min-width: 160px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 3px;
+    }
+
+    .dropdown-content a {
+      color: #333;
+      padding: 10px 15px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background: #eee;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* Masonry Gallery */
+    .gallery {
+      padding: 20px;
+      column-count: 3;
+      column-gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .gallery {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gallery {
+        column-count: 1;
+      }
+    }
