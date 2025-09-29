@@ -1,9 +1,9 @@
 # ProGallery: Interactive Professional Image Showcase
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/YourUsername/ProGallery?style=for-the-badge) 
-![GitHub stars](https://img.shields.io/github/stars/YourUsername/ProGallery?style=for-the-badge) 
-![GitHub issues](https://img.shields.io/github/issues/YourUsername/ProGallery?style=for-the-badge) 
-![GitHub license](https://img.shields.io/github/license/YourUsername/ProGallery?style=for-the-badge)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/MALATHI-GRACE/ProGallery?style=for-the-badge) 
+![GitHub stars](https://img.shields.io/github/stars/MALATHI-GRACE/ProGallery?style=for-the-badge) 
+![GitHub issues](https://img.shields.io/github/issues/MALATHI-GRACE/ProGallery?style=for-the-badge) 
+![GitHub license](https://img.shields.io/github/license/MALATHI-GRACE/ProGallery?style=for-the-badge)
 
 ---
 
