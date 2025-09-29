@@ -11,10 +11,10 @@
 This project demonstrates front-end development skills using **HTML, CSS, and JavaScript**, with advanced features including category filtering, hover effects, lightbox image enlargement, and intuitive navigation.  
 
 **Key functionalities include:**  
-- ✅ Next / Previous navigation (click + keyboard support)  
-- ✅ Captions under each image  
-- ✅ Download button to save the current image  
-- ✅ Zoom In / Zoom Out / Reset (buttons + keyboard: `+`, `-`, `0`)  
+-  Next / Previous navigation (click + keyboard support)  
+-  Captions under each image  
+-  Download button to save the current image  
+-  Zoom In / Zoom Out / Reset (buttons + keyboard: `+`, `-`, `0`)  
 
 ---
 
