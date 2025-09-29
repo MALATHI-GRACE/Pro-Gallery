@@ -60,4 +60,4 @@ This project demonstrates front-end development skills using **HTML, CSS, and Ja
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YourUsername/ProGallery.git
+git clone https://github.com/MALATHI-GRACE/ProGallery.git
