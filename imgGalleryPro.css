@@ -99,6 +99,7 @@
       background: rgba(0,0,0,0.9);
       justify-content: center;
       align-items: center;
+      flex-direction: column;
     }
 
     .lightbox img {
@@ -118,6 +119,29 @@
       cursor: pointer;
     }
 
+    /* Navigation arrows */
+    .nav-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 50px;
+      color: white;
+      cursor: pointer;
+      padding: 10px;
+      user-select: none;
+    }
+
+    .prev {
+      left: 20px;
+    }
+
+    .next {
+      right: 20px;
+    }
+
+    .nav-arrow:hover {
+      color: #ccc;
+    }
 
 
     /* Responsive */

@@ -12,21 +12,42 @@
     const images = document.querySelectorAll('.gallery img');
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
+    let currentIndex = 0;
 
-    images.forEach(img => {
+      // Open lightbox
+    images.forEach((img, index) => {
       img.addEventListener('click', () => {
+        currentIndex = index;
+        showImage();
         lightbox.style.display = 'flex';
-        lightboxImg.src = img.src;
       });
     });
+    
+
+  // Show current image
+    function showImage() {
+      lightboxImg.src = images[currentIndex].src;
+    }
+
 
     function closeLightbox() {
       lightbox.style.display = 'none';
     }
 
-    // Close when clicking outside image
-    lightbox.addEventListener('click', (e) => {
-      if (e.target !== lightboxImg) {
-        closeLightbox();
+
+   // Navigate images
+    function changeImage(direction) {
+      currentIndex += direction;
+      if (currentIndex < 0) currentIndex = images.length - 1;
+      if (currentIndex >= images.length) currentIndex = 0;
+      showImage();
+    }
+
+        // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (lightbox.style.display === 'flex') {
+        if (e.key === "ArrowRight") changeImage(1);
+        if (e.key === "ArrowLeft") changeImage(-1);
+        if (e.key === "Escape") closeLightbox();
       }
     });
